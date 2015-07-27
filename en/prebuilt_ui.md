@@ -33,7 +33,7 @@ You can download JIVER from Unity Asset Store.
 ```
 
 ### 3. Create JIVER Prefab Object
-![img-create-jiver-prefab]
+![Image](/1.jpg)
 
 ### 4. Create Prebuilt JIVER UI
 ![img-create-jiver-ui-prefab]
