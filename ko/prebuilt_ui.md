@@ -5,9 +5,9 @@ JIVER SDK를 Asset Store에서 다운로드하여 쉽게 Unity 프로젝트에 �
 
 다운로드 받은 파일을 Unity Project에서 Import 합니다. 
 
-[Download JIVER Unity Plugin >][jia-latest]
+[Download JIVER Unity Plugin](download_sdk.html)
 
-![img-import]
+![import](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/import.jpg)
 
 
 ### 2. Directory Structure
@@ -35,23 +35,24 @@ JIVER SDK를 Asset Store에서 다운로드하여 쉽게 Unity 프로젝트에 �
 ```
 
 ### 3. Create JIVER Prefab Object
-![img-create-jiver-prefab]
+![jiver-prefab](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/jiver_prefab.jpg)
 
 ### 4. Create Prebuilt JIVER UI
-![img-create-jiver-ui-prefab]
+![ui-prefab](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/ui_prefab.jpg)
 
 ### 5. Choose UI Theme
-![Theme1](/developer/files/unity/unity_ui_tn_beige_crema.jpg)
-![Theme2](/developer/files/unity/unity_ui_tn_candy_sky.jpg)
-![Theme3](/developer/files/unity/unity_ui_tn_fantasy.jpg)
-![Theme4](/developer/files/unity/unity_ui_tn_purple_mania.jpg)
-![Theme5](/developer/files/unity/unity_ui_tn_space_dark.jpg)
-![Theme6](/developer/files/unity/unity_ui_tn_village.jpg)
+![Theme1](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/th_beige_crema.jpg)
+![Theme2](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/th_candy_sky.jpg)
+![Theme3](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/th_fantasy.jpg)
+![Theme4](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/th_purple_mania.jpg)
+![Theme5](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/th_space_dark.jpg)
+![Theme6](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/th_village.jpg)
 
-![img-choose-ui-theme]
+![choose-theme](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/choose_theme.jpg)
+
 
 ### 6. Initialize JIVER.
-![img-create-jiver-main-prefab]
+![main-prefab](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/main_prefab.jpg)
 
 ``` java
 /* JiverMain.cs */
