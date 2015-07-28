@@ -1,12 +1,9 @@
 Setup JIVER
 ============================
 ### 1. Import JIVER 
-You can download JIVER from Unity Asset Store.
-
-[Download JIVER Unity Plugin](download_sdk.html)
+You can download JIVER from hrer. [Download JIVER Unity Plugin](download_sdk.html)
 
 ![import](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/import.jpg)
-
 
 ### 2. Directory Structure
 ``` xml

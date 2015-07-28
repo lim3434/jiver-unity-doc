@@ -1,11 +1,9 @@
 Setup JIVER
 ============================
 ### 1. Import JIVER 
-JIVER SDK를 Asset Store에서 다운로드하여 쉽게 Unity 프로젝트에 포함시킬 수 있습니다.
+JIVER SDK를 다운로드하여 쉽게 Unity 프로젝트에 포함시킬 수 있습니다.
 
-다운로드 받은 파일을 Unity Project에서 Import 합니다. 
-
-[Download JIVER Unity Plugin](download_sdk.html)
+다운로드 받은 파일을 Unity Project에서 Import 합니다. [Download JIVER Unity Plugin](download_sdk.html)
 
 ![import](https://raw.githubusercontent.com/smilefam/jiver-unity-doc/master/file/import.jpg)
 
