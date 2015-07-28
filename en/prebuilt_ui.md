@@ -75,3 +75,4 @@ void Start ()
 JIVER is ready to run into your game. Enjoy JIVER.
 
 P.S. You need a few extra steps to complete integration for iOS. Check out iOS Integration.
+[Jump to iOS integration](ios.html)

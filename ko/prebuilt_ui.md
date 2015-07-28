@@ -80,3 +80,4 @@ JIVER 연동이 완료되었습니다.
 
 iOS빌드를 위해서 몇가지 세팅을 더 수정해야 합니다. iOS Integration 섹션을 확인해 주세요.
 
+[iOS Integration 바로가기](ios.html)
