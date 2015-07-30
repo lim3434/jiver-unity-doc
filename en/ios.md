@@ -1,4 +1,4 @@
-Install JIVER Framework 
+iOS Integration
 =======================
 ### Framework requirements
 You need the following frameworks to use JIVER Framework.
