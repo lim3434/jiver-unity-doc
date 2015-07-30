@@ -1,9 +1,7 @@
 iOS Integration
 =======================
-JIVER Unity를 iOS에서 실행하기 위해 iOS 프레임워크와 몇가지 옵션들을 수정해야 합니다.
-
-### Framework Requirements
-다음의 Framework들이 필요합니다.
+### Framework 요구 사항
+JIVER Framework를 사용하기 위해서 다음의 Framework가 필요합니다.
 
 * libicucore.dylib
 * MobileCoreServices.framework
@@ -12,33 +10,28 @@ JIVER Unity를 iOS에서 실행하기 위해 iOS 프레임워크와 몇가지 �
 * CFNetwork.framework
 * QuartzCore.framework
 
-[Figure 1. Framework requirements]
+[Figure 1. 필수 Framework]
 
-![Figure 1. Framework requirements](/developer/img/jiver-sdk-001.png)
+![Figure 1. 필수 Framework](https://raw.githubusercontent.com/smilefam/jiver-ios-doc/master/file/jiver-sdk-001.png)
 
-### 1. Add JIVER iOS Framework
-다음 파일을 다운로드 하여 JiverSDK.framework 파일을 Xcode 프로젝트에 추가해 주세요.
 
-[JIVER iOS Framework][jia-ios-latest]
+### Install Framework
+1\. [JIVER iOS Framework][jia-latest] 또는 [JIVER iOS Framework with Prebuilt UI][jia-prebuilt-latest] 를 다운받은 후, 압축 파일에 포함된 JiverSDK.framework를 Project navigator에 추가합니다.
 
-[Figure 2. Add Jiver SDK Framework]
+[Figure 2. Jiver SDK Framework 추가]
 
-![Figure 2. Add Jiver SDK](/developer/img/jiver-sdk-002.png)
+![Figure 2. Jiver SDK 추가](https://raw.githubusercontent.com/smilefam/jiver-ios-doc/master/file/jiver-sdk-002.png)
 
-### 2. Set -ObjC Linker Flag 
-**Other Link Flags**에 -ObjC 옵션이 추가되어야 합니다.
+2\. **Build Settings** 탭을 선택한 후, **Linking**의 **Other Linker Flags**에 **$(OTHER_LDFLAGS) -ObjC** 값을 설정합니다.
+[참고 자료: How do I fix "selector not recognized" runtime exceptions when trying to use category methods from a static library?](https://developer.apple.com/library/mac/qa/qa1490/_index.html)
 
-[Figure 3. Set Other Linker Flags]
+[Figure 3. Other Linker Flags 값 설정]
 
-![Figure 3. Set Other Linker Flags](/developer/img/jiver-unity-sdk-001.png)
+![Figure 3. Other Linker Flags 값 설정](https://raw.githubusercontent.com/smilefam/jiver-ios-doc/master/file/jiver-sdk-003.png)
 
-### 3. Enabled Automatic Reference Counting(ARC)
-**ARC** 기능을 JiveriOS.mm 파일에 적용합니다.
+3\. JIVER Framework와 Prebuilt-UI를 사용하기 위해서 Automatic Reference Counting(ARC)를 활성화해야 합니다. 프로젝트의 **Build Settings**에서 **Apple LVMM 6.1 - Language - Objective C**의 **Objective-C Automatic Reference Counting**을 **Yes**로 변경하거나, **Build Phases**의 **Compile Sources**에서 JIVER Framework를 사용하는 소스 파일의 Compiler Flags에 **-fobjc-arc**를 추가합니다.
 
-[Figure 4. Set ARC]
+[Figure 4. ARC 설정]
 
-![Figure 4. Set ARC](/developer/img/jiver-unity-sdk-002.png)
+![Figure 4. ARC 설정](https://raw.githubusercontent.com/smilefam/jiver-ios-doc/master/file/jiver-sdk-006.png)
 
-### 4. Done
-
-** JIVER Unity를 iOS에서 실행하기 위한 준비가 모두 완료되었습니다. **
