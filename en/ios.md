@@ -1,1 +1,1 @@
-{% include "git+https://git@github.com:smilefam/jiver-ios-doc.git/README.md#0.0.1" %}
+{% include "git+https://git@github.com:smilefam/jiver-ios-doc.git/README.md" %}
