@@ -1,5 +1,8 @@
 iOS Integration
 =======================
+### Download latest SDK
+[Latest SDK - Click here to download](https://github.com/smilefam/jiver-sample)
+
 ### Framework requirements
 You need the following frameworks to use JIVER Framework.
 
