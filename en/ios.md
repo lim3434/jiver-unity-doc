@@ -22,6 +22,7 @@ Now you can see installed JIVER framework by inspecting *YOUR_PROJECT*.xcworkspa
 You need the following frameworks to use JIVER Framework.
 
 * libicucore.dylib
+* AdSupport.framework
 * MobileCoreServices.framework
 * Foundation.framework
 * Security.framework
@@ -44,6 +45,4 @@ Enable JIVER Automatic Reference Counting(ARC) in order to use the Framework. Go
 
 or, 
 
-2) Go to **Build Phases** and **Compile Sources** then add **-fobjc-arc** to the Compiler Flags in the source file that will be using JIVER Framework.
-
-![Set ARC](https://raw.githubusercontent.com/smilefam/jiver-igaw-ios-doc/master/file/jiver-sdk-006.png)
+2) Go to **Build Phases** and **Compile Sources** then add **-fobjc-arc** to the Compiler Flags of **JiveriOS.mm**.
