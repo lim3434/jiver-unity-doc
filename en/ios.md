@@ -32,9 +32,9 @@ You need the following frameworks to use JIVER Framework.
 1\. Download [JIVER iOS Framework](download_sdk.html) and drag and drop JiverSDK.framework in the .tar.gz on to Xcode's Project navigator.
 
 
-~~2\.Select **Build Settings** tab, Set **$(OTHER_LDFLAGS) -ObjC** values to **Other Linker Flags** for **Linking**.
+~~2\.Select Build Settings tab, Set $(OTHER_LDFLAGS) -ObjC values to Other Linker Flags for Linking.~~
 
-[Refer to: How do I fix "selector not recognized" runtime exceptions when trying to use category methods from a static library?](https://developer.apple.com/library/mac/qa/qa1490/_index.html)~~(v1.1.28 and later don't require this option.)
+~~[Refer to: How do I fix "selector not recognized" runtime exceptions when trying to use category methods from a static library?](https://developer.apple.com/library/mac/qa/qa1490/_index.html)~~**(v1.1.28 and later don't require this option.)**
 
 
 ### 3. Enable ARC (required for Manual/CocoaPods)
