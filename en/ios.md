@@ -29,7 +29,7 @@ You need the following frameworks to use JIVER Framework.
 * QuartzCore.framework
 
 ### Install Framework
-1\. Download [JIVER iOS Framework](download_sdk.html) and drag and drop JiverSDK.framework in the .tar.gz on to Xcode's Project navigator.
+1\. Download [JIVER iOS Framework](https://github.com/smilefam/jiver-ios-framework) and drag and drop JiverSDK.framework on to Xcode's Project navigator.
 
 
 ~~2\.Select Build Settings tab, Set $(OTHER_LDFLAGS) -ObjC values to Other Linker Flags for Linking.~~
