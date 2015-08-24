@@ -34,9 +34,9 @@ JIVER Framework을 사용하기 위해서 Xcode 프로젝트에 다음의 Framew
 #### JIVER Framwork 설치
 1\. 다운로드한 JIVER Framework를 Xcode 프로젝트에 추가합니다.
 
-~~2\. **Build Settings** 탭을 선택한 후, **Linking**의 **Other Linker Flags**에 **$(OTHER_LDFLAGS) -ObjC** 값을 설정합니다.
-[참고 자료: How do I fix "selector not recognized" runtime exceptions when trying to use category methods from a static library?](https://developer.apple.com/library/mac/qa/qa1490/_index.html)
-~~(v1.1.28 버전부터 이 옵션을 추가할 필요가 없습니다.)
+~~2\. Build Settings 탭을 선택한 후, Linking의 Other Linker Flags에 $(OTHER_LDFLAGS) -ObjC 값을 설정합니다.~~
+~~[참고 자료: How do I fix "selector not recognized" runtime exceptions when trying to use category methods from a static library?](https://developer.apple.com/library/mac/qa/qa1490/_index.html)~~
+**(v1.1.28 버전부터 이 옵션을 추가할 필요가 없습니다.)**
 
 ### 3. 공통 설정
 JIVER Framework을 사용하기 위해서 Automatic Reference Counting(ARC)를 활성화해야 합니다. 프로젝트의 **Build Settings**에서 **Apple LVMM 6.1 - Language - Objective C**의 **Objective-C Automatic Reference Counting**을 **Yes**로 변경하거나, **Build Phases**의 **Compile Sources**에서 JIVER Framework를 사용하는 소스 파일의 Compiler Flags에 **-fobjc-arc**를 추가합니다.
